@@ -7,11 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1kT9MP9gUT0dOQkru22DJEfNFChDQQt8S
 """
 
-!pip install streamlit transformers torch
-
-import streamlit as st
-from transformers import BertTokenizer, BertForSequenceClassification
-import torch
 
 # Load model (adjust path or model name as needed)
 model = BertForSequenceClassification.from_pretrained("bert-base-uncased")
