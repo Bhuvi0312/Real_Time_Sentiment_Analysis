@@ -9,8 +9,8 @@ Original file is located at
 
 
 # Load model (adjust path or model name as needed)
-model = BertForSequenceClassification.from_pretrained("bert-base-uncased")
-tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+model = BertForSequenceClassification.from_pretrained("./Real_Time_Sentiment_Analysis")
+tokenizer = BertTokenizer.from_pretrained("./Real_Time_Sentiment_Analysis")
 model.eval()
 
 st.title("💬 Real-Time Sentiment Analysis App")
