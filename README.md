@@ -33,4 +33,6 @@ F1 Score
 
 👩‍💻 Author
 Bhuvana Sangari
-![Screenshot 2025-06-12 221407](https://github.com/user-attachments/assets/35c83175-5ece-4fe3-bc3a-3a3a9fbf307d)
+## Application
+![Screenshot 2025-06-12 221407](https://github.com/user-attachments/assets/d3e5532f-44d9-463b-85a6-921bb033928e)
+
