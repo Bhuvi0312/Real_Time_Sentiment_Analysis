@@ -8,7 +8,7 @@ Original file is located at
 """
 
 
-
+pip install transformers torch streamlit
 import streamlit as st
 from transformers import BertTokenizer, BertForSequenceClassification
 import torch
