@@ -8,13 +8,13 @@ Original file is located at
 """
 
 
-pip install transformers torch streamlit
+
 import streamlit as st
 from transformers import BertTokenizer, BertForSequenceClassification
 import torch
 
-model = BertForSequenceClassification.from_pretrained("C:\\Users\\bhuva\\Downloads\\sentiment_model")
-tokenizer = BertTokenizer.from_pretrained("C:\\Users\\bhuva\\Downloads\\sentiment_model")
+model = BertForSequenceClassification.from_pretrained("sentiment_model")
+tokenizer = BertTokenizer.from_pretrained("sentiment_model")
 model.eval()
 
 st.title("💬 Real-Time Sentiment Analysis App")
