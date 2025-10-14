@@ -1,38 +1,97 @@
-# Real_Time_Sentiment_Analysis_For_Customer_Feedback
+# 💬 Real-Time Sentiment Analysis Using Neural Networks and Streamlit App
+## 📘 Project Overview
 
-## Overview
-This project is an end-to-end sentiment analysis system that uses a neural network to classify customer feedback as Positive, Negative, or Neutral. The model is served through a Streamlit web application for real-time predictions.
+This project aims to build a real-time sentiment analysis system that classifies user input text (e.g., reviews or feedback) as Positive, Negative, or Neutral using deep learning techniques.
+It integrates a neural network model trained on a public dataset (IMDb) and an interactive Streamlit web application for real-time inference and visualization.
 
-## Objective
-To build a deployable web app that allows users to input text and receive instant sentiment predictions using deep learning models.
+The project demonstrates the end-to-end workflow of data preprocessing, model development, evaluation, and deployment — showcasing how Natural Language Processing (NLP) can be applied for customer feedback analysis and opinion mining.
 
-## Project Structure
-project/
- sentiment_model/ # Saved model and tokenizer
- app.py # Streamlit web app
- requirements.txt # Python dependencies
- README.md # Project documentation
+## 🚀 Key Features
 
-## Model
-- **Architecture**: BERT (Pre-trained)
-- **Framework**: PyTorch and Hugging Face Transformers
-- **Task**: Multi-class classification (Positive, Negative, Neutral)
+🔤 Text Preprocessing — Tokenization, stopword removal, lemmatization
 
-## Evaluation Metrics
-Accuracy
-Precision
-Recall
-F1 Score
+🧠 Deep Learning Model — Neural network built using TensorFlow/Keras
 
-##  Ethical Considerations
-No user data is stored
+💬 Real-Time Prediction — Streamlit interface for live user input
 
-Model trained on balanced data
+📊 Visualization — Confidence scores and sentiment probabilities
 
-May require improvements in bias mitigation and interpretability
+☁️ Deployment Ready — Deployable on Streamlit Cloud, Render, or AWS
 
-Author
+## 🧩 Key Skills
+
+Programming: Python
+Libraries: TensorFlow, Keras, Scikit-learn, Pandas, NumPy, Matplotlib, NLTK, Hugging Face
+Frontend: Streamlit
+Deployment: Streamlit Cloud / AWS
+Version Control: Git, GitHub
+
+## 📊 Project Workflow
+1. Data Collection
+
+Dataset: IMDb Movie Reviews Dataset
+ from Hugging Face
+
+50,000 labeled movie reviews for binary sentiment classification (positive/negative).
+
+2. Data Preprocessing
+
+Cleaned text data: lowercasing, punctuation removal, and tokenization.
+
+Used NLTK for stopword removal and Word Embeddings (GloVe) for feature representation.
+
+3. Model Development
+
+Implemented a 3-layer neural network with embedding, LSTM, and dense layers.
+
+Activation: ReLU and Sigmoid
+
+Optimizer: Adam | Loss: Binary Crossentropy
+
+Achieved ~90% accuracy on test data.
+
+4. Evaluation
+
+Metrics: Accuracy, Precision, Recall, F1-Score, and Confusion Matrix
+
+Visualized training history (loss & accuracy curves).
+
+5. Streamlit App Development
+
+Designed a simple and interactive UI where users can:
+
+Enter custom text
+
+View sentiment result instantly
+
+See model confidence level
+
+## 🧠 Key Learnings
+Practical implementation of NLP & Deep Learning models.
+
+Experience in model deployment and real-time inference.
+
+Understanding of text preprocessing and embeddings in sentiment analysis.
+
+Integration of AI model with web frameworks like Streamlit.
+
+## 🙌 Future Enhancements
+
+Extend model to multi-class sentiment classification (e.g., 5-star ratings).
+
+Use transformer-based models (BERT, DistilBERT) for improved accuracy.
+
+Add data visualization dashboard for sentiment trends over time.
+
+Enable API endpoint for integration with other applications.
+
+## 👩‍💻 Author
+
 Bhuvana Sangari
+📍 Data Science Student | AI & NLP Enthusiast
+🔗 LinkedIn
+ | GitHub
+
 ## Application
 ![Screenshot 2025-06-12 221407](https://github.com/user-attachments/assets/d3e5532f-44d9-463b-85a6-921bb033928e)
 
